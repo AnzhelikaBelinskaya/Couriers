@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: $black;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.title {
+  font-size: 22px;
+  line-height: 28px;
+}
+.title-small {
+color: $gray;
+font-size: 12px;
+line-height: 16px;
+ }
+ .title-small_black {
+   color: $black;
+ }
+ .logo-container {
+  vertical-align: middle;
+  padding: 15px;
+  margin: 0 15px;
+}
+.menu-item {
+  position: relative;
+  padding: 15px;
+  margin: 0 15px;
+}
+.menu-link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+
+@import "header";
+
+@import "request-form";
+@import "footer";
+@import "features";

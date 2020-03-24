@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+
+.footer__menu-link {
+    color: $gray;
+}
+
+.footer__menu-link_black{
+    color: $black;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}

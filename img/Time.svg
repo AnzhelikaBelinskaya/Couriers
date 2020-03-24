@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>A631F02D-8E73-4C15-BE03-E95524156308@2.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="99.0584357%" id="linearGradient-1">
+            <stop stop-color="#F37A01" offset="0%"></stop>
+            <stop stop-color="#E71B01" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1440-Couriers" transform="translate(-160.000000, -990.000000)" fill-rule="nonzero">
+            <g id="USP" transform="translate(160.000000, 990.000000)">
+                <g id="Time">
+                    <g>
+                        <path d="M26,0.561583113 C27.9435046,0.192913412 29.9492236,0 32,0 C49.673112,0 64,14.326888 64,32 C64,43.9180603 57.4846619,54.3143817 47.821475,59.821475 L26,38 L26,0.561583113 Z" id="Path" fill="url(#linearGradient-1)" opacity="0.5"></path>
+                        <path d="M26,12 C40.3594035,12 52,23.6405965 52,38 C52,52.3594035 40.3594035,64 26,64 C11.6405965,64 0,52.3594035 0,38 C0,23.6405965 11.6405965,12 26,12 Z M26,16 C13.8497355,16 4,25.8497355 4,38 C4,50.1502645 13.8497355,60 26,60 C38.1502645,60 48,50.1502645 48,38 C48,25.8497355 38.1502645,16 26,16 Z M28,28 L28,37.1709207 L37.4142625,46.5858354 L34.5857375,49.4141646 L24,38.8276938 L24,28 L28,28 Z" id="Combined-Shape" fill="#2E2E33"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
