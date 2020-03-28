@@ -9,10 +9,21 @@
   border: none;
   width: 100%;
 }
+.request__title{
+  box-sizing: border-box;
+  margin: 10px;
+  font-weight: normal;
+}
+
+.request-form {
+  box-sizing: border-box;
+  margin-top: 36px;
+}
 .request-form__field {
   position: relative;
   height: 56px;
   text-align: center;
+  margin-top: 8px;
 }
 
 .request-form__input {
@@ -25,4 +36,13 @@
   position: absolute;
   top: -12px;
   left: 5%;
+}
+
+.request__step {
+  display: none;
+}
+
+
+.request-form__submit {
+  margin-top: 128px;
 }

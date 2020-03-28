@@ -7,10 +7,11 @@
   background-position: top right;
 }
 
+.header-wrapper {
+  margin: 25px 30px;
+}
 .menu-container {
-  @include desktop {
-    @include flexrow(space-between);
-  }
+@include flexrow(space-between);
 }
 
 .promo {
