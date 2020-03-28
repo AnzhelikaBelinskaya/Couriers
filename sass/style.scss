@@ -15,41 +15,11 @@ body {
   margin: 60px auto;
 }
 
-<<<<<<< HEAD
-.title {
-  font-size: 22px;
-  line-height: 28px;
-}
-.title-small {
-color: $gray;
-font-size: 12px;
-line-height: 16px;
- }
- .title-small_black {
-   color: $black;
- }
- .logo-container {
-  vertical-align: middle;
-  padding: 15px;
-  margin: 0 15px;
-}
-.menu__item {
-  position: relative;
-  padding: 15px;
-  margin: 0 15px;
-}
-.menu__link {
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 10px;
-}
-=======
->>>>>>> c15266a... mobile version completed
 
-
-@import "header";
-@import "menu__item";
-@import "request-form";
-@import "footer";
-@import "features";
+@import "_header";
+@import "_menu__item";
+@import "_request-form";
+@import "_main";
+@import "_logo";
+@import "_feature__item";
+@import "_footer";

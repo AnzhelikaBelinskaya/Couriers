@@ -1,20 +1,14 @@
 @import "variables_&_mixins";
 
-<<<<<<< HEAD
-
-
-.request {
-=======
-
 
 .request-container {
->>>>>>> c15266a... mobile version completed
   margin-top: -130px;
   border-radius: 8px;
   background-color: $white;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),
     0px 8px 32px 0px rgba(0, 0, 0, 0.08);
   padding: 20px;
+  width: 100%;
 }
 
 .button {

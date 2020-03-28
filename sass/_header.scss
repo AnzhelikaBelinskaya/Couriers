@@ -1,13 +1,9 @@
 @import "variables_&_mixins";
-<<<<<<< HEAD
-=======
-
->>>>>>> c15266a... mobile version completed
 
 .header {
   min-height: 400px;
   background: url(img/Bitmap.jpg) no-repeat;
-  background-size: auto 70%;
+  background-size: auto 100%;
   background-position: top right;
 }
 
@@ -17,10 +13,11 @@
   }
 }
 
-
+.promo {
+  display: none;
+}
 
 .promo__text {
-  display: none;
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
   color: $white;
