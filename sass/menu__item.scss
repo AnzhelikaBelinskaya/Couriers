@@ -1,0 +1,38 @@
+.menu__item {
+    display: inline-block;
+  }
+  
+  .menu__link_location::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(img/pin.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .menu__link_location::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .menu__link_hidden::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(img/call.png) no-repeat;
+    background-size: cover;
+  }

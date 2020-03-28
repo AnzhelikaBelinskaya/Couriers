@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,52 +8,56 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:400,700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <div class="header__menu-container">
-           
-            <div class="menu header__menu">
-                <div class="menu-item header__menu-item header__menu-item_location">
-                    <a href="#" class="menu-link header__menu-link header__menu-link_location">Москва</a>
+        <div class="header-wrapper">
+            <div class="menu-container menu-container_row">
+                <div class="menu__item menu__item_location">
+                    <a href="#" class="menu__link menu__link_location">Москва</a>
                 </div>
-                <div class="menu-item header__menu-item header__menu-item_hidden">
-                    <a href="#" class="menu-link header__menu-link header__menu-link_hidden">+7 495 765-43-21</a>
+                <div class="menu__item menu__item_call">
+                    <a href="#" class="menu__link menu__link_call">+7 495 765-43-21</a>
                 </div>
             </div>
-            <div class="logo-container">
-                <a href="#" class="menu-link header__menu-link">
-                <img src="img/kangaroo.png" class="logo-img header__logo-img">
-                <br>
-                Delivery Club
+            <div class="logo">
+                <a href="#" class="menu__link">
+                    <img src="img/kangaroo.png" class="logo__img">
                 </a>
+                <br>
+                <span class="logo__text">Delivery Club</span>
+
             </div>
         </div>
-        <p class="header__promo-text">Ищем курьеров для доставки еды</p>
+        <div class="promo">
+            <p class="promo__text">Ищем курьеров для доставки еды</p>
+        </div>
     </header>
     <main>
-        <div class="request-container">
-        <div class="request">
-            <h2 class="title request__title">Оставьте заявку и мы свяжемся с вами в ближайшее время</h1>
-                <p class="request__step">1 из 2</p>
-            <form class="request-form">
-                <div class="request-form__field">
-                    <label for="name" class="request-form__label">Имя</label>
-                    <input type="text" name="name" id="name" class="request-form__input">
-                </div>
-                <div class="request-form__field">
-                    <label for="phone" class="request-form__label">Телефон</label>
-                    <input type="text" name="phone" id="phone"class="request-form__input">
-                </div>
-                <div class="request-form__submit">
-                <input type="submit" class="button request-form__button">
-                </div>
-            </form>
-        </div>
-        </div>
+        <div class="wrapper">
+            <div class="request">
+
+                <h2 class="request__title">Оставьте заявку и мы свяжемся с вами в ближайшее время</h1>
+                    <p class="request__step">1 из 2</p>
+                    <form class="request-form">
+                        <div class="request-form__field">
+                            <label for="name" class="request-form__label">Имя</label>
+                            <input type="text" name="name" id="name" class="request-form__input">
+                        </div>
+                        <div class="request-form__field">
+                            <label for="phone" class="request-form__label">Телефон</label>
+                            <input type="text" name="phone" id="phone" class="request-form__input">
+                        </div>
+                        <div class="request-form__submit">
+                            <input type="submit" class="button request-form__button">
+                        </div>
+                    </form>
+            </div>
             <div class="features">
+
                 <div class="feature__item">
                     <img src="img/Time.svg" class="feature__img">
-                    <h2 class="title feature__title">Удобный график</h2>
+                    <h2 class="feature__title">Удобный график</h2>
                     <p class="feature__content">Мы подберем для вас индивидуальное гибкое расписание</p>
                 </div>
                 <div class="feature__item">
@@ -63,63 +68,78 @@
                 <div class="feature__item">
                     <img src="img/Uniform.svg" class="feature__img">
                     <h2 class="title feature__title">Комфортная одежда</h2>
-                    <p class="feature__content">Мы предоставим удобную форму на каждый сезон, в ней очень тепло  и легко передвигаться</p>
+                    <p class="feature__content">Мы предоставим удобную форму на каждый сезон, в ней очень тепло и легко
+                        передвигаться</p>
                 </div>
-                <div class="feature-item">
-                    <img src="img/Place.svg">
+                <div class="feature__item">
+                    <img src="img/Place.svg" class="feature__img">
                     <h2 class="title feature__title">Рядом с домом</h2>
                     <p class="feature__content">Мы подберем для вас локацию доставок рядом с домом</p>
                 </div>
-                <div class="feature-item">
-                    <img src="img/Money.svg">
+                <div class="feature__item">
+                    <img src="img/Money.svg" class="feature__img">
                     <h2 class="title feature__title">Корпоративные скидки</h2>
                     <p class="feature__content">Вы сможете заказывать еду с приятными эксклюзивными скидками</p>
                 </div>
-                <button class="button button-hidden">Оставить заявку</button>
-
+                <div class="feature__item feature__item_hidden">
+                    <a href="#" class="button button_hidden">Оставить заявку</a>
+                </div>
             </div>
-        
+        </div>
+
 
     </main>
     <footer class="footer">
-        <div class="footer__top">
-            <div class="logo-container">
-                <a href="#" class="menu-link footer__menu-link_black">
-                    <img src="img/kangaroo.png" class="logo-img header__logo-img">
-                    <br>
-                    Delivery Club
-                </a>
-            </div>
-            <div class="menu footer__menu">
-                <div class="menu-item footer__menu-item">
-                    <a href="#" class="menu-link footer__menu-link">Для ресторанов</a>
+        <div class="wrapper">
+            <div class="footer__container">
+                <div class="logo">
+                    <a href="#" class="menu__link menu__link_black">
+                        <img src="img/kangaroo.png" class="logo__img" />
+                    </a>
+                    <span class="logo__text logo__text_black">Delivery Club</span>
+
                 </div>
-                <div class="menu-item footerr__menu-item">
-                    <a href="#" class="menu-link footer__menu-link">Стать курьером</a>
+
+                <div class="menu__item">
+                    <a href="#" class="menu__link menu__link_black">Для ресторанов</a>
                 </div>
-                <div class="menu-item footer__menu-item">
-                    <a href="#" class="menu-link footer__menu-link">Контакты</a>
+                <div class="menu__item">
+                    <a href="#" class="menu__link menu__link_black">Стать курьером</a>
+                </div>
+                <div class="menu__item">
+                    <a href="#" class="menu__link menu__link_black">Контакты</a>
                 </div>
             </div>
-            <div class="social">
-                <p class="title-small">Присоединяйтесь к нам</p>
-                <a href="#" class="social__link"><img class="icon" src="img/odnoklassniki.png" alt="Одноклассники"></a>
-                <a href="#" class="social__link"><img  class="icon" src="img/vk.png" alt="Вконтакте"></a>
-                <a href="#" class="social__link"><img  class="icon" src="img/facebook.png" alt="Facebook"></a>
-                <a href="#" class="social__link"><img  class="icon" src="img/instagram-sketched.png" alt="Instagram"></a>
+            <div class="footer__container">
+                <div class="social">
+                    <p class="social__title">Присоединяйтесь к нам</p>
+                    <a href="#" class="social__link"><img class="social__icon" src="img/odnoklassniki.png"
+                            alt="Одноклассники"></a>
+                    <a href="#" class="social__link"><img class="social__icon" src="img/vk.png" alt="Вконтакте"></a>
+                    <a href="#" class="social__link"><img class="social__icon" src="img/facebook.png"
+                            alt="Facebook"></a>
+                    <a href="#" class="social__link"><img class="social__icon" src="img/instagram-sketched.png"
+                            alt="Instagram"></a>
+                </div>
+                <div class="app">
+                    <p class="app__title">Заказывайте с телефона</p>
+                    <a href="#" class="app__link"><img class="app__icon" src="img/google-play.png"
+                            alt="Google Play"></a>
+                    <a href="#" class="app__link"><img class="app__icon" src="img/app.png" alt="app Store"></a>
+                </div>
+
+
             </div>
-            <div class="app">
-                <p class="title-small">Заказывайте с телефона</p>
-                <a href="#" class="app__link"><img  class="icon" src="img/google-play.png" alt="Google Play"></a>
-                <a href="#" class="app__link"><img  class="icon" src="img/app.png" alt="app Store"></a>
+            <div class="footer__bottom">
+                <div class="copyright">© 2009–2018, ООО «Деливери Клаб», официальный сайт
+                </div>
+                <div class="terms">Пользовательское соглашение</div>
             </div>
-            
         </div>
-        <div class="courier-footer__bottom">
-            <div class="copyright title-small title-small_black">© 2009–2018, ООО «Деливери Клаб», официальный сайт
-        </div>
-        <div class="terms title-small title-small_black">Пользовательское соглашение</div>
+
+
     </footer>
-    
+
 </body>
+
 </html>

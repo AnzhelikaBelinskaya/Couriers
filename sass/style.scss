@@ -1,5 +1,5 @@
-@import "variables";
-@import "mixins";
+@import "variables_&_mixins";
+
 
 body {
   font-family: "Roboto", sans-serif;
@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  max-width: 320px;
+  margin: 60px auto;
+}
 
 .title {
   font-size: 22px;
@@ -28,12 +32,12 @@ line-height: 16px;
   padding: 15px;
   margin: 0 15px;
 }
-.menu-item {
+.menu__item {
   position: relative;
   padding: 15px;
   margin: 0 15px;
 }
-.menu-link {
+.menu__link {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
@@ -42,7 +46,7 @@ line-height: 16px;
 
 
 @import "header";
-
+@import "menu__item";
 @import "request-form";
 @import "footer";
 @import "features";

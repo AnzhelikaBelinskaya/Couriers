@@ -1,36 +1,29 @@
-@import "variables";
-@import "mixins";
+@import "variables_&_mixins";
 
-.request {
-    border-radius: 8px;
-    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 8px 32px 0px rgba(0, 0, 0, 0.08);
-      width: 100%;
-      
-  }
-  
-  .button {
-    display: block;
-    background-color: $green;
-    border-radius: 4px;
-    color: $white;
-    border: none;
-    width: 100%;
-  }
-  .request-form__field {
-    position: relative;
-    height: 56px;
-    text-align: center;
-  }
-  
-  .request-form__input {
-    border: none;
-    box-shadow: inset 0px -1px 0px 0px rgb(227, 228, 230);
-    width: 90%;
-  }
-  .request-form__label {
-    color: $gray;
-    position: absolute;
-    top: -12px;
-    left: 5%;
-  }
+
+
+.button {
+  display: block;
+  background-color: $green;
+  border-radius: 4px;
+  color: $white;
+  border: none;
+  width: 100%;
+}
+.request-form__field {
+  position: relative;
+  height: 56px;
+  text-align: center;
+}
+
+.request-form__input {
+  border: none;
+  box-shadow: inset 0px -1px 0px 0px rgb(227, 228, 230);
+  width: 90%;
+}
+.request-form__label {
+  color: $gray;
+  position: absolute;
+  top: -12px;
+  left: 5%;
+}

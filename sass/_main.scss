@@ -1,0 +1,33 @@
+@import "variables_&_mixins";
+
+
+
+.request {
+  margin-top: -130px;
+  border-radius: 8px;
+  background-color: $white;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.button {
+  display: block;
+  background-color: $green;
+  border-radius: 4px;
+  color: $white;
+  border: none;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: 48px;
+}
+
+
+.feature__item_hidden {
+  text-align: center;
+}
+.button_hidden {
+  line-height: 48px;
+  text-decoration: none;
+}

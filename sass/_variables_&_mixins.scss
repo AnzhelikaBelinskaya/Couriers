@@ -1,3 +1,9 @@
+$black: #2e2e33;
+$gray: #919399;
+$green: #0ec645;
+$white: #ffffff;
+$screen-xs: 460px;
+
 @mixin flexrow($justify)
     {display: flex;
     justify-content: $justify;

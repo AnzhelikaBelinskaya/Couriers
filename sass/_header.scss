@@ -1,60 +1,21 @@
-@import "variables";
-@import "mixins";
+@import "variables_&_mixins";
 
 .header {
-  height: 460px;
+  min-height: 400px;
   background: url(img/Bitmap.jpg) no-repeat;
   background-size: auto 70%;
   background-position: top right;
 }
 
-.header__menu-container {
+.menu-container {
   @include desktop {
     @include flexrow(space-between);
   }
-  margin-bottom: 150px;
 }
 
-.header__menu-item {
-  display: inline-block;
-}
 
-.header__menu-link_location::before {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  background: url(img/pin.png) no-repeat;
-  background-size: cover;
-}
 
-.header__menu-link_location::after {
-  content: "";
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 10px;
-  height: 10px;
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.header__menu-link_hidden::before {
-  content: "";
-  position: absolute;
-  top: 15px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  background: url(img/call.png) no-repeat;
-  background-size: cover;
-}
-
-.header__promo-text {
+.promo__text {
   display: none;
   font-family: "Montserrat-Black", sans-serif;
   font-weight: 900;
