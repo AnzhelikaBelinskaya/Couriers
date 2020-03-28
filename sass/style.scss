@@ -13,6 +13,30 @@ body {
 .wrapper {
   max-width: 320px;
   margin: 60px auto;
+  @include desktop {
+    max-width: 680px;
+    margin: 60px 0 20px 5%;
+  }
+}
+.wrapper_wide {
+  @include desktop {
+  margin: 0 4% 0 4%;
+  max-width: 100%;
+  }
+}
+
+.wrapper_flex {
+  @include desktop {
+    @include flexrow(flex-start);
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+.wrapper_wide-flex {
+  @include desktop {
+    @include flexrow(space-between);
+  }
 }
 
 @import "_header";

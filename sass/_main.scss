@@ -11,6 +11,9 @@
     0px 8px 32px 0px rgba(0, 0, 0, 0.08);
   padding: 20px;
   width: 100%;
+  @include desktop {
+    margin-top: -270px;
+  }
 }
 
 .features {
@@ -34,4 +37,23 @@
 .button_hidden {
   line-height: 48px;
   text-decoration: none;
+}
+
+
+.promo {
+  display: none;
+  @include desktop {
+    display: block;
+    padding-top: 160px;
+    padding-bottom: 330px;
+    max-width: 60%;
+  }
+}
+
+.promo__text {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  color: $white;
+  font-size: 68px;
+  line-height: 80px;
 }

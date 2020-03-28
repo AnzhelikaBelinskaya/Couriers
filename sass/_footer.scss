@@ -4,12 +4,27 @@
 .app {
   margin: 12px 0;
 }
-.footer__container {
-  box-shadow: inset 0px -1px 0px 0px rgb(227, 228, 230);
+.footer-container {
   padding: 12px 0;
   margin: 10px 0;
-}
+ }
 
+.footer-container_underline {
+  box-shadow: inset 0px -1px 0px 0px rgb(227, 228, 230);
+
+}
+.footer-container_left {
+  @include desktop {
+  @include flexrow(space-between);
+  align-items: center;
+  justify-self: flex-start;
+  }
+}
+.footer-container_right {
+  @include desktop {
+    justify-self: flex-end;
+  }
+}
 .social__icon,
 .app__icon {
    height: 32px;
@@ -27,8 +42,17 @@
   color: $black;
   font-size: 12px;
   line-height: 16px;
+  @include desktop {
+    margin-left: auto;
+  }
 }
 
 .footer {
-  margin-top: 30px;
+  margin: 30px 0;
+}
+
+.footer-bottom {
+@include desktop {
+  @include flexrow(space-between);
+}
 }

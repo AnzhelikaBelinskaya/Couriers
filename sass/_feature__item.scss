@@ -1,6 +1,17 @@
 @import "variables_&_mixins";
 
+.feature__item {
+  @include desktop {
+    width: 33%;
+    margin-bottom: 80px;
+  }
+}
 
+.feature__item_hidden {
+  @include desktop {
+    display: none;
+  }
+}
 .feature__title {
     margin: 10px;
     font-size: 22px;

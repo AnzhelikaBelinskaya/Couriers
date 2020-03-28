@@ -5,21 +5,25 @@
   background: url(img/Bitmap.jpg) no-repeat;
   background-size: auto 100%;
   background-position: top right;
+  @include desktop {
+    min-height: 700px;
+    background-size: cover;
+  }
 }
 
 .header-wrapper {
+  position: relative;
+  box-sizing: border-box;
   margin: 25px 30px;
+  @include desktop {
+   max-width: 1170px;
+   margin: 0 5% 25px 5%;
+  }
 }
 .menu-container {
 @include flexrow(space-between);
-}
 
-.promo {
-  display: none;
+@include desktop {
+  @include flexrow(flex-end);
 }
-
-.promo__text {
-  font-family: "Montserrat-Black", sans-serif;
-  font-weight: 900;
-  color: $white;
 }

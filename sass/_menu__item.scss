@@ -1,10 +1,12 @@
 @import "variables_&_mixins";
 
 
+
+
 .menu__link_location::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 8px;
   left: -5px;
   width: 20px;
   height: 20px;
@@ -15,7 +17,7 @@
 .menu__link_location::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 8px;
   right: -5px;
   width: 10px;
   height: 10px;
@@ -28,7 +30,7 @@
 .menu__link_call::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 8px;
   left: -5px;
   width: 20px;
   height: 20px;
@@ -38,17 +40,27 @@
 
 .menu__item {
   position: relative;
-  margin: 8px 0;
+  padding: 8px 0;
+  @include desktop {
+    margin: 0 5%;
+  }
+}
+
+.menu__item_black{
+  @include desktop {margin: 0 15px;}
+  
 }
 
 .menu__link {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  margin: 0 15px;
+  padding:  0 20px;
+  
 }
 
 .menu__link_black {
   color: $black;
   font-weight: normal;
+  padding: 0;
 }

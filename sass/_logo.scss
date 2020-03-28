@@ -1,16 +1,31 @@
 @import "variables_&_mixins";
 
-
 .logo {
-    padding: 15px;
-  }
+  box-sizing: border-box;
+ 
+}
 
-  .logo__text {
-    color: $white;
-    font-weight: bold;
-    vertical-align: 100%;
+.logo_left {
+  display: none;
+  @include desktop {
+   display: block;
+  margin-right: auto;
   }
+}
 
-  .logo__text_black {
-    color: $black;
-  }
+.logo_bottom {
+  display: block;
+@include desktop {
+display: none;
+}
+}
+
+.logo__text {
+  color: $white;
+  font-weight: bold;
+  vertical-align: 100%;
+}
+
+.logo__text_black {
+  color: $black;
+}
