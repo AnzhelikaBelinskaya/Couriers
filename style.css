@@ -10,21 +10,36 @@ body {
 .wrapper {
   max-width: 320px;
   margin: 60px auto;
+<<<<<<< HEAD
 }
 
 .title {
   font-size: 22px;
   line-height: 28px;
+=======
+>>>>>>> c15266a... mobile version completed
 }
 
-.title-small {
-  color: #919399;
-  font-size: 12px;
-  line-height: 16px;
+.header {
+  min-height: 360px;
+  background: url(img/Bitmap.jpg) no-repeat;
+  background-size: auto 100%;
+  background-position: top right;
 }
 
-.title-small_black {
-  color: #2e2e33;
+.menu-container_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.promo__text {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
 }
 
 .logo-container {
@@ -39,13 +54,30 @@ body {
   margin: 0 15px;
 }
 
+<<<<<<< HEAD
 .menu__link {
+=======
+.request-container {
+  margin-top: -130px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 8px 32px 0px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.button {
+  display: block;
+  background-color: #0ec645;
+  border-radius: 4px;
+>>>>>>> c15266a... mobile version completed
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
   margin: 10px;
 }
 
+<<<<<<< HEAD
 .header {
   min-height: 400px;
   background: url(img/Bitmap.jpg) no-repeat;
@@ -73,6 +105,44 @@ body {
 
 .menu__item {
   display: inline-block;
+=======
+.feature__item_hidden {
+  text-align: center;
+}
+
+.button_hidden {
+  line-height: 48px;
+  text-decoration: none;
+}
+
+.social,
+.app {
+  margin: 12px 0;
+}
+
+.footer__container {
+  -webkit-box-shadow: inset 0px -1px 0px 0px #e3e4e6;
+          box-shadow: inset 0px -1px 0px 0px #e3e4e6;
+  padding: 12px 0;
+  margin: 10px 0;
+}
+
+.social__icon,
+.app__icon {
+  height: 32px;
+}
+
+.social__title, .app__title, .copyright {
+  color: #919399;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.terms {
+  color: #2e2e33;
+  font-size: 12px;
+  line-height: 16px;
+>>>>>>> c15266a... mobile version completed
 }
 
 .menu__link_location::before {
@@ -110,6 +180,7 @@ body {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .button {
   display: block;
   background-color: #0ec645;
@@ -119,6 +190,50 @@ body {
   width: 100%;
 }
 
+=======
+.menu__item {
+  position: relative;
+  margin: 8px 0;
+}
+
+.menu__link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu__link_black {
+  color: #2e2e33;
+  font-weight: normal;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.logo__text {
+  color: #ffffff;
+  font-weight: bold;
+  vertical-align: 100%;
+}
+
+.logo__text_black {
+  color: #2e2e33;
+}
+
+.request__title {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.request__step {
+  display: none;
+}
+
+>>>>>>> c15266a... mobile version completed
 .request-form__field {
   position: relative;
   height: 56px;
@@ -139,6 +254,7 @@ body {
   left: 5%;
 }
 
+<<<<<<< HEAD
 .footer__menu-link {
   color: #919399;
 }
@@ -152,11 +268,22 @@ body {
   height: 30px;
 }
 
+=======
+>>>>>>> c15266a... mobile version completed
 .feature__title {
   margin: 10px;
 }
 
 .feature__img {
+<<<<<<< HEAD
   margin: 20px;
+=======
+  padding: 20px;
+}
+
+.feature__content {
+  margin: 0;
+  padding: 15px 0;
+>>>>>>> c15266a... mobile version completed
 }
 /*# sourceMappingURL=style.css.map */

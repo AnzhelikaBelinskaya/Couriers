@@ -1,6 +1,11 @@
+<<<<<<< HEAD:menu__item.css
 .menu__item {
   display: inline-block;
 }
+=======
+@import "variables_&_mixins";
+
+>>>>>>> c15266a... mobile version completed:sass/_menu__item.scss
 
 .menu__link_location::before {
   content: "";
@@ -36,4 +41,24 @@
   background: url(img/call.png) no-repeat;
   background-size: cover;
 }
+<<<<<<< HEAD:menu__item.css
 /*# sourceMappingURL=menu__item.css.map */
+=======
+
+.menu__item {
+  position: relative;
+  margin: 8px 0;
+}
+
+.menu__link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu__link_black {
+  color: $black;
+  font-weight: normal;
+}
+>>>>>>> c15266a... mobile version completed:sass/_menu__item.scss

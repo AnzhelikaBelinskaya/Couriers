@@ -1,5 +1,6 @@
 @import "variables_&_mixins";
 
+<<<<<<< HEAD
 .footer__menu-link {
     color: $gray;
 }
@@ -12,3 +13,33 @@
     width: 30px;
     height: 30px;
 }
+=======
+.social,
+.app {
+  margin: 12px 0;
+}
+.footer__container {
+  box-shadow: inset 0px -1px 0px 0px rgb(227, 228, 230);
+  padding: 12px 0;
+  margin: 10px 0;
+}
+
+.social__icon,
+.app__icon {
+   height: 32px;
+}
+
+
+.social__title, .app__title, .copyright {
+  color: $gray;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+.terms {
+  color: $black;
+  font-size: 12px;
+  line-height: 16px;
+}
+>>>>>>> c15266a... mobile version completed
