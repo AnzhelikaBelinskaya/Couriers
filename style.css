@@ -40,15 +40,11 @@ body {
   color: #ffffff;
 }
 
-.menu__item {
-  display: inline-block;
-}
-
 .menu__link_location::before {
   content: "";
   position: absolute;
-  top: 15px;
-  left: 0;
+  top: 0;
+  left: -5px;
   width: 20px;
   height: 20px;
   background: url(img/pin.png) no-repeat;
@@ -58,8 +54,8 @@ body {
 .menu__link_location::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: 0;
+  top: 0;
+  right: -5px;
   width: 10px;
   height: 10px;
   border-right: 3px solid white;
@@ -68,15 +64,32 @@ body {
   transform: rotate(45deg);
 }
 
-.menu__link_hidden::before {
+.menu__link_call::before {
   content: "";
   position: absolute;
-  top: 15px;
-  left: 0;
+  top: 0;
+  left: -5px;
   width: 20px;
   height: 20px;
   background: url(img/call.png) no-repeat;
   background-size: cover;
+}
+
+.menu__item {
+  position: relative;
+  margin: 8px 0;
+}
+
+.menu__link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu__link_black {
+  color: #2e2e33;
+  font-weight: normal;
 }
 
 .button {
