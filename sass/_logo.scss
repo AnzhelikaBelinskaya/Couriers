@@ -2,22 +2,21 @@
 
 .logo {
   box-sizing: border-box;
- 
 }
 
 .logo_left {
   display: none;
   @include desktop {
-   display: block;
-  margin-right: auto;
+    display: block;
+    margin-right: auto;
   }
 }
 
 .logo_bottom {
   display: block;
-@include desktop {
-display: none;
-}
+  @include desktop {
+    display: none;
+  }
 }
 
 .logo__text {

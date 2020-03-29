@@ -16,14 +16,14 @@
   box-sizing: border-box;
   margin: 25px 30px;
   @include desktop {
-   max-width: 1170px;
-   margin: 0 5% 25px 5%;
+    max-width: 1170px;
+    margin: 0 5% 25px 5%;
   }
 }
 .menu-container {
-@include flexrow(space-between);
+  @include flexrow(space-between);
 
-@include desktop {
-  @include flexrow(flex-end);
-}
+  @include desktop {
+    @include flexrow(flex-end);
+  }
 }

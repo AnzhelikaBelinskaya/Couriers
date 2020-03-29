@@ -1,8 +1,5 @@
 @import "variables_&_mixins";
 
-
-
-
 .menu__link_location::before {
   content: "";
   position: absolute;
@@ -46,17 +43,17 @@
   }
 }
 
-.menu__item_black{
-  @include desktop {margin: 0 15px;}
-  
+.menu__item_black {
+  @include desktop {
+    margin: 0 15px;
+  }
 }
 
 .menu__link {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  padding:  0 20px;
-  
+  padding: 0 20px;
 }
 
 .menu__link_black {

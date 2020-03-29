@@ -4,13 +4,14 @@ $green: #0ec645;
 $white: #ffffff;
 $screen-xs: 460px;
 
-@mixin flexrow($justify)
-    {display: flex;
-    justify-content: $justify;
-    flex-wrap: wrap;
-    }
+@mixin flexrow($justify) {
+  display: flex;
+  justify-content: $justify;
+  flex-wrap: wrap;
+}
 
 @mixin desktop {
-    @media (min-width: $screen-xs)
-    {@content};
+  @media (min-width: $screen-xs) {
+    @content;
+  }
 }

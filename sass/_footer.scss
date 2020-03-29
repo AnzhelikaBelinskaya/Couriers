@@ -38,10 +38,12 @@
 }
 
 
-.terms {
+.terms__link {
   color: $black;
   font-size: 12px;
   line-height: 16px;
+}
+.terms{
   @include desktop {
     margin-left: auto;
   }

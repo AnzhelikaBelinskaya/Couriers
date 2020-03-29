@@ -2,12 +2,14 @@
 
 .feature__item {
   @include desktop {
-    width: 33%;
+    max-width: 25%;
     margin-bottom: 80px;
+    margin-right: 80px;
   }
 }
 
 .feature__item_hidden {
+  text-align: center;
   @include desktop {
     display: none;
   }
@@ -27,6 +29,4 @@
     padding: 15px 0;
   }
   
-  .feature__item_hidden {
-    text-align: center;
-  }
+  
